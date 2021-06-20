@@ -3,7 +3,7 @@ Windows Forms app for solving nonogram puzzles (see https://en.wikipedia.org/wik
 IMPORTANT: There may be more than one solution to the puzzle, but only one solution is recognized as valid by application.
 Task description:
 
-Main window and controls:
+        Main window and controls:
         Main window has a size of 1000x800 and starts centered on the screen
         Main window is non-resizable and has maximalize button disabled
         On the top of the window there is a menu bar with 2 options: 'New Game' and 'Create...'
@@ -12,11 +12,11 @@ Main window and controls:
         The main window area is composed from:
             board 10x10 (each tile has size of 30x30)
             labels beside each row and above each column
-Board:
+        Board:
         Start board size : 10x10 tiles
         Each tile color: white when empty, black when filled
         On the start of the application, there is a random puzzle generated and the board is already painted accordingly to the generated board values
-Labels:
+        Labels:
         Number in row indicate how many unbroken painted lines there are in this row and how long they are
         Analogously, column text indicate how many unbroken painted lines there are in this column and how long they ar
    
